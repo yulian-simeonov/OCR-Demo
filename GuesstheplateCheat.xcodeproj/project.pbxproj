@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17E5A610146017E9004B1CA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E5A60F146017E9004B1CA6 /* UIKit.framework */; };
+		17E5A612146017E9004B1CA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E5A611146017E9004B1CA6 /* Foundation.framework */; };
+		17E5A614146017E9004B1CA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E5A613146017E9004B1CA6 /* CoreGraphics.framework */; };
+		3B0436DE179C88B100883655 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B0436DD179C88B100883655 /* Default-568h@2x.png */; };
+		3B0436E0179C88C900883655 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B0436DF179C88C900883655 /* Default@2x.png */; };
+		3B0436E2179C88D000883655 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B0436E1179C88D000883655 /* Default.png */; };
+		3B043759179C901900883655 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B0436ED179C901900883655 /* AppDelegate.mm */; };
+		3B043760179C901900883655 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B043726179C901900883655 /* InfoPlist.strings */; };
+		3B043761179C901900883655 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B043728179C901900883655 /* ViewController.xib */; };
+		3B043762179C901900883655 /* GuesstheplateCheat-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B04372B179C901900883655 /* GuesstheplateCheat-Info.plist */; };
+		3B043763179C901900883655 /* Lorem_Ipsum_Univers1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B04372D179C901900883655 /* Lorem_Ipsum_Univers1.png */; };
+		3B043764179C901900883655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B04372E179C901900883655 /* main.m */; };
+		3B043766179C901900883655 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B043733179C901900883655 /* background.png */; };
+		3B043767179C901900883655 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B043734179C901900883655 /* background@2x.png */; };
+		3B04376C179C901900883655 /* btn_getanswer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B043739179C901900883655 /* btn_getanswer.png */; };
+		3B04376D179C901900883655 /* btn_getanswer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B04373A179C901900883655 /* btn_getanswer@2x.png */; };
+		3B043782179C901900883655 /* navi_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B04374F179C901900883655 /* navi_bg.png */; };
+		3B043783179C901900883655 /* navi_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B043750179C901900883655 /* navi_bg@2x.png */; };
+		3B043784179C901900883655 /* sample1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B043751179C901900883655 /* sample1.png */; };
+		3B043785179C901900883655 /* sample2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B043752179C901900883655 /* sample2.jpg */; };
+		3B043786179C901900883655 /* sample3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B043753179C901900883655 /* sample3.png */; };
+		3B043788179C901900883655 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B043757179C901900883655 /* ViewController.m */; };
+		3B04378B179C91BC00883655 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 3B04378A179C91BC00883655 /* tessdata */; };
+		DC7D44621977009500D6BF42 /* crop_frame.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7D44611977009500D6BF42 /* crop_frame.png */; };
+		DC7D446919770FC500D6BF42 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7D446819770FC500D6BF42 /* TesseractOCR.framework */; };
+		DC7D446B19770FD300D6BF42 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7D446A19770FD300D6BF42 /* libstdc++.6.0.9.dylib */; };
+		DC7D446D1977124C00D6BF42 /* testimage1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7D446C1977124C00D6BF42 /* testimage1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17E5A60B146017E9004B1CA6 /* GuesstheplateCheat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuesstheplateCheat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E5A60F146017E9004B1CA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17E5A611146017E9004B1CA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17E5A613146017E9004B1CA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B0436DD179C88B100883655 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3B0436DF179C88C900883655 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3B0436E1179C88D000883655 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3B0436EC179C901900883655 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B0436ED179C901900883655 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		3B043727179C901900883655 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B043729179C901900883655 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3B04372B179C901900883655 /* GuesstheplateCheat-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GuesstheplateCheat-Info.plist"; sourceTree = "<group>"; };
+		3B04372C179C901900883655 /* GuesstheplateCheat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GuesstheplateCheat-Prefix.pch"; sourceTree = "<group>"; };
+		3B04372D179C901900883655 /* Lorem_Ipsum_Univers1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lorem_Ipsum_Univers1.png; sourceTree = "<group>"; };
+		3B04372E179C901900883655 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B043733179C901900883655 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		3B043734179C901900883655 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		3B043739179C901900883655 /* btn_getanswer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_getanswer.png; sourceTree = "<group>"; };
+		3B04373A179C901900883655 /* btn_getanswer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_getanswer@2x.png"; sourceTree = "<group>"; };
+		3B04374F179C901900883655 /* navi_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi_bg.png; sourceTree = "<group>"; };
+		3B043750179C901900883655 /* navi_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_bg@2x.png"; sourceTree = "<group>"; };
+		3B043751179C901900883655 /* sample1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample1.png; sourceTree = "<group>"; };
+		3B043752179C901900883655 /* sample2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample2.jpg; sourceTree = "<group>"; };
+		3B043753179C901900883655 /* sample3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample3.png; sourceTree = "<group>"; };
+		3B043756179C901900883655 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B043757179C901900883655 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B04378A179C91BC00883655 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		DC7D44611977009500D6BF42 /* crop_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crop_frame.png; sourceTree = "<group>"; };
+		DC7D446819770FC500D6BF42 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		DC7D446A19770FD300D6BF42 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		DC7D446C1977124C00D6BF42 /* testimage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testimage1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17E5A608146017E9004B1CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7D446B19770FD300D6BF42 /* libstdc++.6.0.9.dylib in Frameworks */,
+				DC7D446919770FC500D6BF42 /* TesseractOCR.framework in Frameworks */,
+				17E5A610146017E9004B1CA6 /* UIKit.framework in Frameworks */,
+				17E5A612146017E9004B1CA6 /* Foundation.framework in Frameworks */,
+				17E5A614146017E9004B1CA6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E5A600146017E9004B1CA6 = {
+			isa = PBXGroup;
+			children = (
+				3B0436E1179C88D000883655 /* Default.png */,
+				3B0436DF179C88C900883655 /* Default@2x.png */,
+				3B0436DD179C88B100883655 /* Default-568h@2x.png */,
+				3B0436EB179C901900883655 /* GuessPlateCheat */,
+				17E5A60E146017E9004B1CA6 /* Frameworks */,
+				17E5A60C146017E9004B1CA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17E5A60C146017E9004B1CA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E5A60B146017E9004B1CA6 /* GuesstheplateCheat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17E5A60E146017E9004B1CA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC7D446A19770FD300D6BF42 /* libstdc++.6.0.9.dylib */,
+				DC7D446819770FC500D6BF42 /* TesseractOCR.framework */,
+				17E5A60F146017E9004B1CA6 /* UIKit.framework */,
+				17E5A611146017E9004B1CA6 /* Foundation.framework */,
+				17E5A613146017E9004B1CA6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B0436EB179C901900883655 /* GuessPlateCheat */ = {
+			isa = PBXGroup;
+			children = (
+				3B04378A179C91BC00883655 /* tessdata */,
+				3B0436EC179C901900883655 /* AppDelegate.h */,
+				3B0436ED179C901900883655 /* AppDelegate.mm */,
+				3B043726179C901900883655 /* InfoPlist.strings */,
+				3B04372B179C901900883655 /* GuesstheplateCheat-Info.plist */,
+				3B04372C179C901900883655 /* GuesstheplateCheat-Prefix.pch */,
+				3B04372D179C901900883655 /* Lorem_Ipsum_Univers1.png */,
+				3B04372E179C901900883655 /* main.m */,
+				3B04372A179C901900883655 /* GPUFilter */,
+				3B043732179C901900883655 /* Resources */,
+				3B043751179C901900883655 /* sample1.png */,
+				3B043752179C901900883655 /* sample2.jpg */,
+				3B043753179C901900883655 /* sample3.png */,
+				3B043756179C901900883655 /* ViewController.h */,
+				3B043757179C901900883655 /* ViewController.m */,
+				3B043728179C901900883655 /* ViewController.xib */,
+			);
+			path = GuessPlateCheat;
+			sourceTree = "<group>";
+		};
+		3B04372A179C901900883655 /* GPUFilter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GPUFilter;
+			sourceTree = "<group>";
+		};
+		3B043732179C901900883655 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC7D446C1977124C00D6BF42 /* testimage1.png */,
+				DC7D44611977009500D6BF42 /* crop_frame.png */,
+				3B043733179C901900883655 /* background.png */,
+				3B043734179C901900883655 /* background@2x.png */,
+				3B043739179C901900883655 /* btn_getanswer.png */,
+				3B04373A179C901900883655 /* btn_getanswer@2x.png */,
+				3B04374F179C901900883655 /* navi_bg.png */,
+				3B043750179C901900883655 /* navi_bg@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17E5A60A146017E9004B1CA6 /* GuesstheplateCheat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E5A629146017EA004B1CA6 /* Build configuration list for PBXNativeTarget "GuesstheplateCheat" */;
+			buildPhases = (
+				17E5A607146017E9004B1CA6 /* Sources */,
+				17E5A608146017E9004B1CA6 /* Frameworks */,
+				17E5A609146017E9004B1CA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuesstheplateCheat;
+			productName = TesseractSample;
+			productReference = 17E5A60B146017E9004B1CA6 /* GuesstheplateCheat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17E5A602146017E9004B1CA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 17E5A605146017E9004B1CA6 /* Build configuration list for PBXProject "GuesstheplateCheat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17E5A600146017E9004B1CA6;
+			productRefGroup = 17E5A60C146017E9004B1CA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17E5A60A146017E9004B1CA6 /* GuesstheplateCheat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17E5A609146017E9004B1CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0436DE179C88B100883655 /* Default-568h@2x.png in Resources */,
+				3B0436E0179C88C900883655 /* Default@2x.png in Resources */,
+				3B0436E2179C88D000883655 /* Default.png in Resources */,
+				3B043760179C901900883655 /* InfoPlist.strings in Resources */,
+				3B043761179C901900883655 /* ViewController.xib in Resources */,
+				3B043762179C901900883655 /* GuesstheplateCheat-Info.plist in Resources */,
+				3B043763179C901900883655 /* Lorem_Ipsum_Univers1.png in Resources */,
+				3B043766179C901900883655 /* background.png in Resources */,
+				3B043767179C901900883655 /* background@2x.png in Resources */,
+				3B04376C179C901900883655 /* btn_getanswer.png in Resources */,
+				3B04376D179C901900883655 /* btn_getanswer@2x.png in Resources */,
+				3B043782179C901900883655 /* navi_bg.png in Resources */,
+				DC7D446D1977124C00D6BF42 /* testimage1.png in Resources */,
+				3B043783179C901900883655 /* navi_bg@2x.png in Resources */,
+				DC7D44621977009500D6BF42 /* crop_frame.png in Resources */,
+				3B043784179C901900883655 /* sample1.png in Resources */,
+				3B043785179C901900883655 /* sample2.jpg in Resources */,
+				3B043786179C901900883655 /* sample3.png in Resources */,
+				3B04378B179C91BC00883655 /* tessdata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17E5A607146017E9004B1CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B043759179C901900883655 /* AppDelegate.mm in Sources */,
+				3B043764179C901900883655 /* main.m in Sources */,
+				3B043788179C901900883655 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B043726179C901900883655 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B043727179C901900883655 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B043728179C901900883655 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B043729179C901900883655 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17E5A627146017E9004B1CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17E5A628146017E9004B1CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17E5A62A146017EA004B1CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Andrew Thornberry (8XA4BYX3UP)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuessplateCheat/GuesstheplateCheat-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "GuessplateCheat/GuesstheplateCheat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/GuessPlateCheat/build_dependencies/dependencies/lib\"",
+				);
+				PRODUCT_NAME = GuesstheplateCheat;
+				PROVISIONING_PROFILE = "FD1B3897-73AB-4BAF-B6DD-31E25BD48F35";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17E5A62B146017EA004B1CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Andrew Thornberry (8XA4BYX3UP)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuessplateCheat/GuesstheplateCheat-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "GuessplateCheat/GuesstheplateCheat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/GuessPlateCheat/build_dependencies/dependencies/lib\"",
+				);
+				PRODUCT_NAME = GuesstheplateCheat;
+				PROVISIONING_PROFILE = "FD1B3897-73AB-4BAF-B6DD-31E25BD48F35";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E5A605146017E9004B1CA6 /* Build configuration list for PBXProject "GuesstheplateCheat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E5A627146017E9004B1CA6 /* Debug */,
+				17E5A628146017E9004B1CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E5A629146017EA004B1CA6 /* Build configuration list for PBXNativeTarget "GuesstheplateCheat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E5A62A146017EA004B1CA6 /* Debug */,
+				17E5A62B146017EA004B1CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17E5A602146017E9004B1CA6 /* Project object */;
+}
