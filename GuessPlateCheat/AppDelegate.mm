@@ -3,7 +3,7 @@
 //  OCR Sample
 //
 //  Created by Yulian Simeonov on 11/1/11.
-//  Copyright (c) 2011 Rainbow. All rights reserved.
+//  Copyright (c) 2011 YulianMobile. All rights reserved.
 //
 
 #import "AppDelegate.h"
